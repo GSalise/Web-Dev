@@ -1,0 +1,90 @@
+body{
+    margin:0;
+    background-image:url(./img/nah_id_win.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.sidenav{
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    background-color: black;
+    z-index: 1;
+    top: 0; 
+    left: 0;
+}
+
+.sidenav a {
+    margin-top: 50px;
+    padding: 6px 8px 50px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+.navbox a {
+    float:left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 40px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbox{
+    background-size:cover;
+    height:100px;
+    background:rgba(56, 54, 54, 0.682);
+    margin-left: 200px;
+}
+
+.maincontent{
+    margin-left: 220px;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(129, 45, 181, 0.364);
+    color: white;
+    text-align: center;
+    z-index: 1;
+    height: 100px;
+  }
+
+.maincontent p{
+    padding: 15px;
+    font-size: 20px;
+    background-color: rgba(56, 54, 54, 0.682);
+    border-radius: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#gvs{
+    width: 500px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#jogoat{
+    width: 600px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
